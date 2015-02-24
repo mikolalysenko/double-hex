@@ -1,0 +1,42 @@
+{
+  "name": "double-hex",
+  "version": "1.0.0",
+  "description": "Convert IEEE754 floats to C99 style hexadecimal strings",
+  "main": "dhex.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "double-bits": "^1.1.1",
+    "bit-twiddle": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/double-hex.git"
+  },
+  "keywords": [
+    "hex",
+    "float",
+    "double",
+    "number",
+    "hexadecimal",
+    "string",
+    "pretty",
+    "print",
+    "debug",
+    "floating",
+    "point",
+    "IEEE",
+    "754"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/double-hex/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/double-hex"
+}
